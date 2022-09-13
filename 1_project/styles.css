@@ -1,0 +1,12 @@
+h1, h2 {
+    background-color: black;
+    color: white;
+}
+
+body {
+    margin: 0px 20px 0px 20px;
+}
+
+.paragraph {
+    width: 100%;
+}
