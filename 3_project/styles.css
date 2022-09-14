@@ -18,7 +18,7 @@
   }
 
   body {
-    width: 1440px;
+    
     font-family: Helvetica, sans-serif;
   }
 
@@ -40,7 +40,11 @@ h2, .header-text, .footer-text {
 }
 
 .background-img {
+  background-position: center ; 
+  background-size: cover;
+  background-image: url("images/img.png");
   background-repeat: no-repeat;
+  height: 1080px;
 }
 
 .section {
@@ -49,5 +53,5 @@ h2, .header-text, .footer-text {
 }
 
 .section-paragraph {
-    padding-top: 57px;
+    margin-top: 57px;
 }
