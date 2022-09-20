@@ -4,4 +4,121 @@
     box-sizing: border-box;
   }
 
+.header {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  left:0;
+  top:0;
+  width: 100%;
+  padding: 50px;
+  font-size: 50px;
+  color: #E50043;
+  font-weight: 400;
+
+}
+
+.menu {
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+.menu > li {
+  list-style: none;
   
+}
+
+.menu > li:not(:last-child) {
+  margin-right: 25px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.menu > li > a {
+  text-decoration: none;
+  color: #E50043;
+}
+
+
+.hero-block {
+  background:  url(images/evian_origins_logo.png);
+  height: 950px;
+  display: flex;
+  margin-top: 157.5px;
+}
+
+.hero-block-header {
+  font-size: 100px;
+  color: #E50043;
+  font-weight: 400;
+  margin: auto;
+}
+
+.main-content {
+  padding: 150px 199px 150px 201px;
+}
+
+.pink-block {
+  border: 3px solid #F8BFC7;
+  border-radius: 20px;
+  
+}
+
+.water-block {
+  padding: 24px;
+}
+
+.our-water {
+  margin-bottom: 24px;
+}
+
+.water-block , .products {
+  margin-bottom: 150px;
+}
+
+.products {
+  display: flex;
+  justify-content: center;
+}
+
+.footer {
+  background-color: #F8BFC7;
+  display: flex;
+  justify-content:flex-start;
+  width: 100%;
+  padding: 50px;
+  font-size: 50px;
+  color: white;
+  font-weight: 400;
+}
+
+.bottle-block {
+  display: flex;
+  justify-content: center;
+  padding: 30px 30px 30px 80px;
+}
+
+.pink-block-paragraph > p {
+  margin-bottom: 24px;
+}
+
+.pink-block-paragraph {
+  margin-left: 80px;
+}
+.product:not(:last-child) {
+  margin-right: 100px ;
+}
+
+.product > p {
+  text-align: center;
+
+}
+
+.product > img {
+  margin-bottom: 48px;
+}
+
