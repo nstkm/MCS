@@ -49,17 +49,21 @@ body {
   height: 950px;
   display: flex;
   margin-top: 157.5px;
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
 }
 
 .hero-block-header {
   font-size: 100px;
   color: #E50043;
   font-weight: 400;
-  margin: auto;
 }
 
 .main-content {
-  padding: 150px 199px 150px 201px;
+  padding: 150px 0px;
+  margin: 0 auto;
+  width: 1040px;
 }
 
 .pink-block {
@@ -82,7 +86,7 @@ body {
 
 .products {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .footer {
@@ -104,14 +108,16 @@ body {
 
 .pink-block-paragraph > p {
   margin-bottom: 24px;
+
 }
 
 .pink-block-paragraph {
   margin-left: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
-.product:not(:last-child) {
-  margin-right: 100px ;
-}
+
 
 .product > p {
   text-align: center;
