@@ -60,7 +60,8 @@
   /* Макет для десктопов */
   @media only screen and (min-width: 391px) {
     .main-content {
-      padding: 102px 110px;
+      padding: 102px 0px;
+      margin: 0 auto;
       display: flex;
       flex-wrap: wrap; 
        justify-content: center;
