@@ -47,6 +47,20 @@
     background-color: #29fd2f;
   }
 
+  .illustration img {
+    width: 100%;
+    display: block;
+  }
+
+  .header {
+    height: auto;
+  }
+  
+  .photo img {
+    width: 100%;
+    display: block;
+  }
+  
   /* Макет для мобильных */
   @media only screen and (max-width: 400px) {
     body {

@@ -12,7 +12,16 @@ content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
     <div class="page">
         <div class="section menu"></div>
         <div class="section header">
-          <img src="images/header.svg"/>
+          <div class="photo">
+            <picture>
+              <source media="(min-width: 401px)"
+                      srcset="images/photo-big.jpg"/>
+              <source media="(max-width: 400px)"
+                      srcset="images/photo-tall.jpg"/>
+              <img src="images/photo-small.jpg"/>
+            </picture>
+          </div>
+        </div>
         </div>
         <div class="section content">
           <img src="images/content.svg"/>
@@ -30,7 +39,12 @@ content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
           <img src="images/feature.svg"/>
         </div>
         <div class="section content">
-          <img class="illustration" src="images/illustration.svg" />
+          <div class="illustration">
+            <img src="illustration-small.png"
+              srcset="images/illustration-small.png 1x,
+                      images/illustration-big.png 2x"
+              style="max-width: 500px"/>
+          </div>
         </div>
     </div>
   </body>
