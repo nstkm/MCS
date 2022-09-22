@@ -3,3 +3,72 @@
     padding: 0;
     box-sizing: border-box;
   }
+
+  body {
+    font-family: 'Times New Roman', serif;
+  }
+
+.header , .footer {
+color: black;
+font-size: 50px;
+font-weight: 400;
+text-align: center;
+background-color: #FFE138 ;
+padding: 52px 0;
+}
+
+.main-content {
+    display: flex;
+    
+    align-items: flex-start;
+    padding: 50px;
+}
+
+.section {
+    border: 1px solid #000000;
+    align-items: flex-start;
+}
+
+.section-text {
+    margin: 30px;
+    font-size: 20px;
+}
+
+.section-text > p:first-child {
+    padding-bottom: 30px;
+    font-weight: 700;
+}
+
+ /* Макет для мобильных */
+ @media only screen and (max-width: 390px) {
+    
+    .main-content {
+      padding: 23px;
+    }
+
+    .section {
+      padding: 23px;
+      text-align: center;
+    }
+
+    .section:not(:last-child) {
+      margin-bottom: 41px;
+    }
+
+    .footer {
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+    }
+    
+    .footer-back {
+      display: none;
+    }
+  }
+  
+  /* Макет для десктопов */
+  @media only screen and (min-width: 391px) {
+    
+    
+  }
