@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <title>Семантическая верстка</title>
+  </head>
+  <body>
+    <div class="page">
+    <header>
+        <h1>Moscow Coding School</h1>
+        <nav>
+          <ul>
+            <li><a href="#">Главная</a></li>
+            <li><a href="#">О нас</a></li>
+            <li><a href="#">Блог</a></li>
+            <li><a href="#">Подписаться</a></li>
+          </ul>
+        </nav>
+      </header>
+
+  <article>
+  <h1>Семантическая верстка</h1>
+  <p>Moscow Coding School. Опубликовано <time datetime="2020-12-5"> </time>5-ого декабря</p>
+  <aside class="advert">
+    <img src="some-advert-image.png"/>
+  </aside>
+  <p>Это пример веб-страницы, на которой рассказывается про семантическую верстку.</p>
+  <footer> <!-- Добавим это -->
+    <p>Это было написано кем-то из Moscow Coding School. Этот футер предназначен только для
+       элемента <code><article></code>.</p>
+        <address>
+            Можете связаться с нами тут <a href="mailto:mcs@example.com">Moscow Coding School</a>.
+         </address>
+  </footer> <!-- Добавим это -->
+</article>
+
+
+<section>     <!-- Добавим это -->
+    <h2>Схема документа</h2>
+    <p>В HTML5 есть несколько секционных элементов, которые влияют на схему документа.</p>
+    <figure>
+        <img src="semantic-elements.png" alt="Диаграмма, показывающая подпись у <article>, <section>, и <nav>." />
+        <figcaption>Диаграмма, показывающая подпись у <article>, <section>, и <nav>.</figcaption>.
+      </figure>
+      
+    <h3>Хэдеры</h3>
+    <p>Элемент <code><header></code> является одним из секционных элементов.</p>
+  
+    <h3>Футеры</h3>
+    <p>Элемент <code><footer></code> тоже секционный.</p>
+  </section>    <!-- Добавим это -->
+  
+    <!-- Добавим это -->
+    <h2>Строчная семантическая верстка</h2>
+    <section>
+      <!-- Это переместится в секцию «Untitled» -->
+      <p>Элемент <code><time></code> является семантическим, но при этом он не секционный.</p>
+    </section>
+    <footer> <!-- И это -->
+        <p>2020 Moscow Coding School</p>
+      </footer> <!-- Не забудем закрыть тут -->
+      </div>
+  </body>
+</html>
