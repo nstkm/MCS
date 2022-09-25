@@ -19,15 +19,16 @@ padding: 52px 0;
 
 .main-content {
     display: flex;
-    
+    justify-content: center;
     align-items: flex-start;
     padding: 50px;
 }
 
 .section {
     border: 1px solid #000000;
-    align-items: flex-start;
 }
+
+
 
 .section-text {
     margin: 30px;
@@ -39,36 +40,24 @@ padding: 52px 0;
     font-weight: 700;
 }
 
+.section-img img {
+   
+    display: block;
+}
  /* Макет для мобильных */
  @media only screen and (max-width: 390px) {
-    
     .main-content {
-      padding: 23px;
-    }
-
-    .section {
-      padding: 23px;
-      text-align: center;
-    }
-
-    .section:not(:last-child) {
-      margin-bottom: 41px;
-    }
-
-    .footer {
-      position: absolute;
-      left: 0;
-      bottom: 0;
-      width: 100%;
+        flex-wrap: wrap;
     }
     
-    .footer-back {
-      display: none;
-    }
   }
   
   /* Макет для десктопов */
   @media only screen and (min-width: 391px) {
     
-    
+   
+
+    .section:not(:last-child) {
+        margin-right: 20px;
+    }
   }
