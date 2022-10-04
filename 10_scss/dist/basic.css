@@ -2,3 +2,39 @@ h1 {
   line-height: 1em;
   background-color: red;
 }
+
+header h1 {
+  line-height: 1em;
+  background-color: red;
+}
+header h2 {
+  line-height: 1em;
+  background-color: red;
+}
+header > time {
+  color: white;
+}
+header > span {
+  font-size: 10px;
+}
+
+a:link {
+  color: red;
+}
+a:hover {
+  color: red;
+}
+a:visited {
+  color: red;
+}
+a:focus {
+  color: red;
+}
+
+.blog-post__header {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  width: 2px;
+}
