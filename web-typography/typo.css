@@ -30,6 +30,11 @@
   box-sizing: border-box;
 }
 
+.never-both p {
+  text-indent: 1em;
+  margin-bottom: 1em;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
