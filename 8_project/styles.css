@@ -68,6 +68,7 @@
     justify-content: center;
     flex-direction: column;
    background-color: #336fd1 ;
+   margin: -1px;
   }
   .big-text > p {
     display: block;
@@ -91,6 +92,11 @@
 }
 
 .form {
+
+
+}
+
+.form-block {
 background: #F8BFC7;
 border: 3px solid #FFFFFF;
 border-radius: 20px;
@@ -101,6 +107,7 @@ max-width: 300px;
 margin-bottom: 10px;
 }
 
+
 .form-row {
   display: flex;
   justify-content: flex-start;
@@ -109,7 +116,7 @@ margin-bottom: 10px;
 }
 
 button {
-  background: #FEB700;
+background: #FEB700;
  border: 3px solid #FFFFFF;
  border-radius: 30px;
  font-size: 20px;
@@ -119,15 +126,21 @@ button {
  cursor: pointer;
  font-weight: bold;
  margin: 0 auto;
- text-align: center;
+}
+
+.button {
+  text-align: center;
+}
+
+button:hover {
+  background: #e0a205;
 }
 
 .form-row input[type="text"],
-.form-row input[type="email"] {
+.form-row input[type="email"]{
   background-color: #F8BFC7;
   width: 100%;
   padding: 7px;
-  -webkit-border-radius: 0;
     -webkit-appearance: none;
     border: none;
     box-shadow: none;
@@ -136,31 +149,29 @@ button {
   
 }
 
-.form-row input::placeholder {
+.form-row input::placeholder, input:focus, input  {
   color: white;
   font-size: 16px;
   border-bottom: 1px solid white;
+}
 
+input:focus::-webkit-input-placeholder {
+  color: white;
 }
 
 .form-row:not(:last-child) , .form-row > label {
   margin-bottom:16px ;
 }
+
 .form-select {
   background-color: #F8BFC7;
   border: 0;
   color: white;
-  
 }
 
-.form-row select {
+.form-row > select {
   border-bottom: 1px solid white;
   width: 100%;
-}
-
-.form-block {
-  display: flex;
-  flex-direction: column;
 }
 
 .form-row input[type="text"]:invalid,
@@ -168,7 +179,5 @@ button {
   border: 1px solid #D55C5F;
   color: #D55C5F;
   box-shadow: none; 
-  
 }
-
 
